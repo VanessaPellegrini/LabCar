@@ -2,7 +2,56 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-family: 'Raleway', sans-serif;
+}
 /*modificacion toggle bootstrapt*/
 .navbar-toggle{
 	float: left;
+}
+/*nav-logo*/
+.logo{
+    margin: 20px;
+}
+ul.nav.navbar-nav.navbar-right{
+    margin: 20px;
+}
+/*hero*/
+.hero{
+	background-image: url(../img/taxi.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-top: -20px;
+}
+/*formulario-hero*/
+form{
+	width: 500px;
+	height: 400px;
+	float: right;
+	background-color: #f7b617;
+	color: #fff;
+	font-weight: 600;
+}
+form.form-horizontal{
+	padding: 20px 70px;
+}
+button.btn.btn-primary{
+	color: #000;
+	font-weight: 800;
+	border: none;
+	background-color: whitesmoke;
+}
+div.form-group h2{
+	padding: -10px;
+}
+div.form-group input{
+	padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: solid 2px whitesmoke;
+    outline: 0;
+    background-color: transparent;
+    font-size: 12px;
 }

@@ -4,37 +4,76 @@
 	<meta charset="UTF-8">
 	<title>LabCar</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,800" rel="stylesheet"> 
+	<link rel="stylesheet" href="assets/css/media.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<!--primera parte navbar-->
-	<nav class="navbar navbar-default">
-  		<div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
+	<section class="nav-bar">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<!--primera parte navbar-->
+				<nav class="navbar navbar-default">
+			  		<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
 
-	      <!--logo-->
-	      <div class="logo">
-	      	<img src="assets/img/logo.png" alt="#">
-	      </div>
-	    </div>
+				      <!--logo-->
+				      <div class="logo">
+				      	<img src="assets/img/logo.png" alt="#">
+				      </div>
+				    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Viaja</a></li>
-	        <li><a href="#">Conduce</a></li>
-	        <li><a href="#">Inicia sesión</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
+			    	<!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav navbar-right">
+				        <li><a href="#">Viaja</a></li>
+				        <li><a href="#">Conduce</a></li>
+				        <li><a href="#">Inicia sesión</a></li>
+				      </ul>
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		</div>
+	</section>
+	<!--Hero-->
+	<section class="hero">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<div class="imagen-hero"></div>
+				<div class="caja-form">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<h2>Disfruta el viaje</h2>
+							<h2>Eres dueño de tu tiempo</h2>
+						</div>
+						<div class="form-group">
+							<div class="logo-blanco">
+								<h3>Viaja con <img src="assets/img/logo-blanco.png" alt="#"></h3>
+							</div>
+							<h4>REGÍSTRATE</h4>
+						</div>
+						<div class="form-group">
+							<input type="text">
+							<small>O bien</small>
+							<input type="text">
+						</div>
+						<div class="form-group">
+							<button class="btn btn-primary">Conviértete en conductor</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!--script-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzp2aomLqyJf3Br6Jta8CHQ9hwHVSEf1Q&libraries=places&callback=initMap"
         async defer></script>
