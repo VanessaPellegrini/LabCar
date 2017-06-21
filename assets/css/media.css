@@ -15,6 +15,19 @@
 		margin: 20px;
 		border: none;
 	}
+	/*hero form*/
+	.big-box-form{
+		display: none;
+	}
+	div.little-box{
+		display: block;
+	}
+	div.border-blanco-xs{
+		display: block;
+	}
+	div.info-app.text-center{
+		display: none;
+	}
 }
 @media only screen and (min-width: 1px) and (max-width: 480px) {
 	/*nav*/
@@ -25,5 +38,18 @@
 	button.navbar-toggle{
 		margin: 20px;
 		border: none;
+	}
+	/*hero form*/
+	.big-box-form{
+		display: none;
+	}
+	div.little-box{
+		display: block;
+	}
+	div.border-blanco-xs{
+		display: block;
+	}
+	div.info-app.text-center{
+		display: none;
 	}
 }

@@ -48,7 +48,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-12">
 				<div class="imagen-hero"></div>
-				<div class="caja-form">
+				<div class="big-box-form">
 					<form class="form-horizontal">
 						<div class="form-group">
 							<h2>Disfruta el viaje</h2>
@@ -70,10 +70,93 @@
 						</div>
 					</form>
 				</div>
+				<div class="little-box">
+					<div class="form-group little">
+						<div class="logo-blanco">
+							<h3>Comienza a viajar con<img src="assets/img/logo-blanco.png" alt="#"></h3>
+						</div>
+						<button class="btn btn-primary">Descarga el app</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
-
+	<!--informacion-app-->
+	<section class="info-app">
+		<div class="row">
+			<div class="col-xs-12 col-md-10">
+				<div class="border-blanco">
+					<div class="row">
+						<div class="col-md-5 col-md-offset-1 col-xs-12">
+							<div>
+								<img src="assets/img/celular.png" class="img-responsive" alt="#">
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-12">
+							<div class="info-app text-center">
+								<h2>Descarga la nueva app</h2>
+								<article>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</article>
+								<article>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="border-blanco-xs col-xs-12">
+								<h2>La nueva app</h2>
+								<h2>Llega a tu destino aún más rápido</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--section-conduce-->
+	<section class="conduce">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+				<div class="big-box">
+					<div class="form-group">
+						<h2>Conduce cuando quieras</h2>
+						<small>LabCar es una opción flexible para alcanzar tus metas financieras.</small>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-primary">Conviértete en conductor</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--tarifa-->
+	<section class="tarifa">
+		<div class="row">
+			<div class="col-md-6 col-xs-12">
+				<div class="tarifa-text">
+					<h2>Tarifa</h2>
+					<small>Consulta las tarifas LabCar aquí</small>
+				</div>
+			</div>
+			<div class="">
+				<label for="#">Origen</label>
+				<input id="origin-input" class="controls" type="text" placeholder="Enter an origin location">
+				
+				<label for="#">Destino</label>
+				<input id="destination-input" class="controls" type="text" placeholder="Enter a destination location">
+			</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div id="mode-selector" class="controls">
+		     			 	<input type="radio" name="type" id="changemode-driving">
+		      				<label for="changemode-driving">Driving</label>
+		    			</div>
+		    		</div>
+		    	</div>
+				<!--mapa-->
+				<div class="row">
+					<div class="col-md-6 col-xs-12" id="map">
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--script-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAzp2aomLqyJf3Br6Jta8CHQ9hwHVSEf1Q&libraries=places&callback=initMap"
         async defer></script>
