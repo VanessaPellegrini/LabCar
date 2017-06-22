@@ -148,7 +148,7 @@ section.tarifa{
 	color: #fff;
 }
 div.tarifa-text{
-	margin: 40px 60px;
+	margin-left: 100px;
 }
 div.tarifa-text h2{
 	font-weight: 600;
@@ -158,6 +158,7 @@ div.tarifa-text h2{
 div.tarifa-text p{
 	margin-left: 50px;
 	font-size: 17px;
+	margin-bottom: -10px;
 }
 div.input-mapa{
 	margin: 10px;
@@ -178,11 +179,6 @@ input#origin-input.control{
 	padding: 20px;
 	border-color: #fff;
 }
-.caja-mapa{
-	background-color: transparent;
-	padding: 5px;
-	border: 1.2px solid white#fff;
-}
 button#trazar-ruta.btn.btn-default{
     margin: 10px;
     margin-left: 45px;
@@ -201,11 +197,11 @@ button#trazar-ruta.btn.btn-default{
 }
 /*map*/
 #map{
-	height: 350px;
-	width: 500px;
-	border: 2px solid #fff;
-	float: right;
-	margin: 30px 60px;
+	height: 370px;
+    width: 700px;
+    border: 2px solid #fff;
+    float: right;
+    margin: 55px -90px;
 }
 /*footer*/
 footer{
