@@ -139,28 +139,33 @@
 		<div class="row">
 			<div class="col-md-4 col-xs-12">
 				<div class="tarifa-text">
-					<h2>Tarifa</h2>
-					<small>Consulta las tarifas LabCar aquí</small>
+					<h2>Tarifas</h2>
+					<p>Consulta las tarifas LabCar aquí</p>
+
+					<br>
+					<div class="input-mapa">
+						<label for="#"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></label>
+						<input id="origin-input" class="control" type="text" placeholder="Ingrese punto de partida">
+					</div>
+					<div class="input-mapa">
+						<label for="#"><i class="fa fa-location-arrow fa-2x" aria-hidden="true"></i></label>
+						<input id="destination-input" class="controls" type="text" placeholder="Ingrese su destino">
+					</div>
+					<div>
+						<button id="trazar-ruta" class="btn btn-default">¡TRAZAR RUTA!</button>
+					</div>
+					<div class="calcular-ruta" id="output">
+						<h3>El valor de su viaje será: </h3>
+					</div>		
 				</div>
 			</div>
-			<div class="col-md-4 col-xs-12">
-				<label for="#">Origen</label>
-				<input id="origin-input" class="controls" type="text" placeholder="Enter an origin location">
-				
-				<label for="#">Destino</label>
-				<input id="destination-input" class="controls" type="text" placeholder="Enter a destination location">
-			</div>
 			<div class="row">
-				<div class="col-md-12 text-center">
-					<div id="mode-selector" class="controls">
-		     		 	<input type="radio" name="type" id="changemode-driving">
-		    			<label for="changemode-driving">Driving</label>
-		    		</div>
-		   		</div>
-		   	</div>
-			<!--mapa-->
-			<div class="row">
-				<div class="col-md-6 col-xs-12" id="map"></div>
+				<div class="col-md-6 col-xs-12">
+					<div class="caja-mapa">
+						<div class="img-map" id="map">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -173,7 +178,7 @@
 				</div>
 				<hr>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-6">
 						<ul class="social-media"> 	
 							<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
 							<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
@@ -182,7 +187,7 @@
 							<li><i class="fa fa-play" aria-hidden="true"></i></li>
 						</ul>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-6">
 						<ul class="listas-interes"> 	
 							<li><a href="">Viaja</a></li>
 							<li><a href="">Conduce</a></li>
@@ -206,7 +211,7 @@
 							<li><a href="">Coders</a></li>
 						</ul>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-xs-6">
 						<div class="tiendas-img">
 							<img src="assets/img/google-play.png" alt="#">
 							<img src="assets/img/app-store.png" alt="#">

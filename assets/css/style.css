@@ -144,7 +144,68 @@ button.btn.btn-primary.conduce-btn{
 /*section tarifa*/
 section.tarifa{
 	background-color: #f7b617;
-	height: 400px;
+	height: 500px;
+	color: #fff;
+}
+div.tarifa-text{
+	margin: 40px 60px;
+}
+div.tarifa-text h2{
+	font-weight: 600;
+	margin-left: 50px;
+	font-size: 40px;
+}
+div.tarifa-text p{
+	margin-left: 50px;
+	font-size: 17px;
+}
+div.input-mapa{
+	margin: 10px;
+}
+label{
+	padding: 5px;
+}
+input#origin-input.control{
+	margin-left: 5px;
+}
+.input-mapa input{
+	width: 250px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	outline: 0;
+	padding: 20px;
+	border-color: #fff;
+}
+.caja-mapa{
+	background-color: transparent;
+	padding: 5px;
+	border: 1.2px solid white#fff;
+}
+button#trazar-ruta.btn.btn-default{
+    margin: 10px;
+    margin-left: 45px;
+    padding: 10px 75px;
+}
+.calcular-ruta{
+	width: 250px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	outline: 0;
+	padding: 10px;
+	border-color: #fff;
+	margin-left: 45px;
+}
+/*map*/
+#map{
+	height: 350px;
+	width: 500px;
+	border: 2px solid #fff;
+	float: right;
+	margin: 30px 60px;
 }
 /*footer*/
 footer{

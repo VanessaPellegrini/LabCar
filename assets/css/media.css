@@ -91,4 +91,12 @@
 	div.big-box{
 		margin-top: -17px;
 	}
+	/*footer*/
+	footer hr{
+		width: 90%;
+		margin-left:20px;
+	}
+	div.logo-footer{
+		margin-left: -70px;
+	}
 }
