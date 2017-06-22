@@ -42,8 +42,42 @@
 		height: 250px;
     	margin: 25px
 	}
+	/*conduce*/
+	div.big-box{
+		margin-top: -17px;
+	}
+	/*tarifa*/
+	div.tarifa-text.xs {
+    	margin-left: 20px;
+	}
+	#map {
+    height: 370px;
+    width: 480px;
+    border: 2px solid #fff;
+    float: right;
+    margin: 5px;
+	}
+	/*footer*/
+	footer hr{
+		width: 90%;
+		margin-left:20px;
+	}
+	ul.social-media.xs{
+		margin-left: 200px;
+    	display: inline;
+	}
+	ul.listas-interes.xs{
+		margin-left: -200px;
+	}
+	div.logo-footer{
+		margin-left: -70px;
+	}
+	div.tiendas-img.xs{
+		margin-left: 190px;
+    	margin-top: -160px;
+	}
 }
-@media only screen and (min-width: 1px) and (max-width: 480px) {
+@media only screen and (min-width: 381px) and (max-width: 480px) {
 	/*nav*/
 	.logo{
 		float: right;
@@ -91,12 +125,34 @@
 	div.big-box{
 		margin-top: -17px;
 	}
+	/*tarifa*/
+	div.tarifa-text.xs {
+    	margin-left: 20px;
+	}
+	#map {
+    height: 370px;
+    width: 480px;
+    border: 2px solid #fff;
+    float: right;
+    margin: 5px;
+	}
 	/*footer*/
 	footer hr{
 		width: 90%;
 		margin-left:20px;
 	}
+	ul.social-media.xs{
+		margin-left: 200px;
+    	display: inline;
+	}
+	ul.listas-interes.xs{
+		margin-left: -200px;
+	}
 	div.logo-footer{
 		margin-left: -70px;
+	}
+	div.tiendas-img.xs{
+		margin-left: 200px;
+    	margin-top: -300px;
 	}
 }
