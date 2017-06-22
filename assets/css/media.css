@@ -1,16 +1,9 @@
-@media only screen and (min-width: 1281px) {
-
-}
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
-
-
-}
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	/*nav*/
 	.logo{
 		float: right;
 		margin: 20px;
-	} 
+	}   
 	button.navbar-toggle{
 		margin: 20px;
 		border: none;
@@ -22,11 +15,32 @@
 	div.little-box{
 		display: block;
 	}
+	/*info*/
 	div.border-blanco-xs{
 		display: block;
+		margin: 15px;
+	}
+	div.border-blanco{
+		height: 370px;
+		margin-left: 15px;
 	}
 	div.info-app.text-center{
 		display: none;
+	}
+	h3.info-tittle{
+		margin: 20px;
+    	font-size: 30px;
+    	font-weight: 600;
+	}
+	h4.info-tittle-inferior{
+		margin-top: 40px;
+	}
+	.img-celular{
+		display: none;
+	}
+	img.img-responsive.img-celular-xs{
+		height: 250px;
+    	margin: 25px
 	}
 }
 @media only screen and (min-width: 1px) and (max-width: 480px) {
@@ -46,10 +60,35 @@
 	div.little-box{
 		display: block;
 	}
+	/*info*/
 	div.border-blanco-xs{
 		display: block;
+		margin: 15px;
+	}
+	div.border-blanco{
+		height: 370px;
+		margin-left: 15px;
 	}
 	div.info-app.text-center{
 		display: none;
+	}
+	h3.info-tittle{
+		margin: 20px;
+    	font-size: 30px;
+    	font-weight: 600;
+	}
+	h4.info-tittle-inferior{
+		margin-top: 40px;
+	}
+	.img-celular{
+		display: none;
+	}
+	img.img-responsive.img-celular-xs{
+		height: 250px;
+    	margin: 25px
+	}
+	/*conduce*/
+	div.big-box{
+		margin-top: -17px;
 	}
 }

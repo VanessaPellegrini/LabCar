@@ -88,11 +88,25 @@ section.info-app{
 .border-blanco{
 	border: 2px solid #fff;
 	height: 400px;
-	margin: 30px;
+	margin: 15px;
 	margin-left: 0;
 }
 div.info-app.text-center{
-	padding: 40px;
+	padding: 10px;
+    margin: 10px;
+    margin-top: 60px;
+}
+article{
+	padding: 10px;
+	text-align: justify;
+}
+div.info-app h2{
+	font-weight: 600;
+	font-size: 28px;
+}
+.img-celular{
+    margin-top: 30px;
+    height: 350px;
 }
 /*info-app-xs*/
 .border-blanco-xs{
@@ -106,14 +120,29 @@ div.info-app.text-center{
 	background-repeat: no-repeat;
 	background-position: center;
 	margin-top: -20px;
+	color: #fff;
 }
 .big-box{
 	background-color: rgba(0, 0, 0, 0.5);
 	float: right;
 	height: 400px;
 }
+div.conduce-group{
+	margin: 30px;
+    margin-top: 90px;
+}
+div.conduce-group h2{
+	font-weight: 600;
+}
+button.btn.btn-primary.conduce-btn{
+	background-color: #f7b617;
+}
 /*section tarifa*/
 section.tarifa{
 	background-color: #f7b617;
 	height: 400px;
+}
+/*footer*/
+.box-footer{
+	display: inline-block;
 }
