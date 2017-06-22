@@ -6,6 +6,10 @@ body{
 	font-family: 'Raleway', sans-serif;
 	background-color: black;
 }
+ul{
+	font-style: none;
+	list-style: none;
+}
 /*modificacion toggle bootstrapt*/
 .navbar-toggle{
 	float: left;
@@ -143,6 +147,52 @@ section.tarifa{
 	height: 400px;
 }
 /*footer*/
+footer{
+	background-color: #2b2b2b;
+	color: #fff;
+}
+a{
+	color: #fff;
+}
+.logo-footer{
+	margin: 15px;
+    margin-top: 25px;
+}
 .box-footer{
 	display: inline-block;
+}
+.tiendas-img{
+	margin-top: 200px;
+}
+.tiendas-img img{
+	padding: 15px;
+    width: 170px;
+}
+div.logo-footer img{
+	margin-left: 120px;
+}
+ul.social-media{
+	margin-left: 140px;
+    margin-top: 290px;
+}
+ul.social-media li{
+	padding: 10px;
+}
+ul.listas-interes{
+	margin-left: 50px;
+    padding: 10px;
+}
+ul.listas-interes li{
+	padding: 10px;
+}
+hr{
+	width: 80%;
+	margin-left: 120px;
+}
+footer ul.social-media li{
+	display: inline-block;
+	color: #fff;
+}
+div.text-center.corp{
+	margin: 10px;
 }
