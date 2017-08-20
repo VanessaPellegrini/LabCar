@@ -5,6 +5,12 @@
 body{
 	font-family: 'Raleway', sans-serif;
 }
+.row{
+	margin: 0;
+}
+.col-md-12{
+		padding: 0;
+}
 ul{
 	font-style: none;
 	list-style: none;
@@ -196,11 +202,11 @@ button#trazar-ruta.btn.btn-default{
 }
 /*map*/
 #map{
-	height: 370px;
-    width: 700px;
+    height: 370px;
+    width: 100%;
     border: 2px solid #fff;
     float: right;
-    margin: 55px -90px;
+    margin-top: 10%;
 }
 /*footer*/
 footer{
@@ -252,3 +258,4 @@ footer ul.social-media li{
 div.text-center.corp{
 	margin: 10px;
 }
+
